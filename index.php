@@ -45,7 +45,7 @@
   curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
   curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
   curl_setopt($ch, CURLOPT_POST, true);
-  curl_setopt($ch, CURLOPT_POSTFIELDS, "name=admin&password=pmlsystem");
+  curl_setopt($ch, CURLOPT_POSTFIELDS, "name=admin&password=password");
 
   ob_start();      // prevent any output
 
